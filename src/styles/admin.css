@@ -5,7 +5,38 @@
   min-height: 100vh;
   background-color: #1a1a1a;
 }
-
+.btn-info {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #f96f3aa3;
+    --bs-btn-border-color: #0dcaf0;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #df8224bd;
+    --bs-btn-hover-border-color: #25cff2;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #3dd5f3;
+    --bs-btn-active-border-color: #25cff2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #0dcaf0;
+    --bs-btn-disabled-border-color: #0dcaf0;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #f96f3aa3;
+    --bs-btn-border-color: #f96f3a59;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #df8224bd;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
 .admin-sidebar .sidebar-logo {
   text-align: center;
   padding: 15px;
