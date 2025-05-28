@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f96f3a; /* Màu cam chính */
-  --secondary-color: #000000; /* Màu đen */
+  --secondary-color: #ffe6e6; /* Màu đen */
   --text-light: #ffffff;
   --text-dark: #000000;
   --bg-light: #ffffff;
@@ -9,6 +9,7 @@
   --success: #28a745;
   --warning: #ffc107;
   --info: #17a2b8;
+  --bs-card-cap-bg: #ffe6e6;
 }
 
 body {
@@ -25,7 +26,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-header {
+  background-color: #ffe6e6;
+  color: var(--primary-color);
+  font-weight: bold;
+}
 
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
 /* Navbar và sidebar */
 .sidebar {
   background-color: var(--secondary-color);
