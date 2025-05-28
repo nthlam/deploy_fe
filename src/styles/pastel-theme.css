@@ -1,8 +1,8 @@
 :root {
   /* Bảng màu chính */
-  --primary-pastel: #ffd700; /* Vàng đậm hơn */
-  --primary-pastel-light: #ffeb99; /* Vàng nhạt */
-  --primary-pastel-dark: #e6c200; /* Vàng đậm */
+  --primary-pastel: #f96f3a; /* Cam chính */
+  --primary-pastel-light: #f99; /* Cam nhạt */
+  --primary-pastel-dark: #e65a26; /* Cam đậm */
   
   --secondary-pastel: #1a1a1a; /* Đen đậm hơn */
   --secondary-pastel-light: #444444; /* Đen nhạt */
@@ -30,7 +30,7 @@
 
 /* Cài đặt cơ bản */
 body {
-  background-color: var(--bg-pastel);
+  background-color: rgba(249, 111, 58, 0.2);
   color: var(--text-dark);
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .sidebar-menu li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(249, 111, 58, 0.1);
 }
 
 .sidebar-menu li:hover {
@@ -171,7 +171,7 @@ body {
 /* Forms */
 .form-control:focus {
   border-color: var(--primary-pastel-dark);
-  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(249, 111, 58, 0.25);
 }
 
 .form-label {
@@ -186,7 +186,7 @@ body {
 
 /* Login page */
 .login-container {
-  background-color: var(--bg-pastel);
+  background-color: rgba(249, 111, 58, 0.2);
   min-height: 100vh;
 }
 

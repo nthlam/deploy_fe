@@ -20,7 +20,7 @@ const AdminSidebar = () => {
       <div className="sidebar-logo">
         <h4 className="text-center mb-0">
           <span style={{ color: '#000000', fontWeight: 'bold' }}>
-            <span>the</span>gioididong
+            <span>TechShop</span>
             <span style={{ fontSize: '0.7em' }}>.com</span>
           </span>
         </h4>

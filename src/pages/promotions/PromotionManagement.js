@@ -261,9 +261,8 @@ const PromotionManagement = () => {
       }
       
       if (isNaN(parseFloat(currentPromotion.value)) || 
-          parseFloat(currentPromotion.value) <= 0 || 
-          parseFloat(currentPromotion.value) > 100) {
-        setError("Phần trăm giảm giá phải là số dương và không vượt quá 100%");
+          parseFloat(currentPromotion.value) <= 0) {
+        setError("Số tiền giảm giá phải là số dương");
         return;
       }
       
@@ -509,7 +508,7 @@ const PromotionManagement = () => {
                       <tr>
                         <th>ID</th>
                         <th>Tên khuyến mãi</th>
-                        <th>Phần trăm giảm giá</th>
+                        <th>Số tiền giảm (VND)</th>
                         <th>Ngày bắt đầu</th>
                         <th>Ngày kết thúc</th>
                         <th>Danh mục</th>
@@ -522,7 +521,7 @@ const PromotionManagement = () => {
                           <tr key={promotion.id}>
                             <td>{promotion.id}</td>
                             <td>{promotion.name}</td>
-                            <td>{promotion.value || promotion.discountPercent}%</td>
+                            <td>{(promotion.value || promotion.discountPercent).toLocaleString()} VND</td>
                             <td>
                               {promotion.startDate
                                 ? new Date(promotion.startDate).toLocaleDateString('vi-VN')
@@ -631,15 +630,14 @@ const PromotionManagement = () => {
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label>Phần trăm giảm giá (%)</Form.Label>
+              <Form.Label>Số tiền giảm (VND)</Form.Label>
               <Form.Control
                 type="number"
                 name="value"
                 value={currentPromotion.value}
                 onChange={handleInputChange}
-                placeholder="Nhập phần trăm giảm giá"
+                placeholder="Nhập số tiền giảm giá"
                 min="0"
-                max="100"
                 required
               />
             </Form.Group>
@@ -752,4 +750,4 @@ const PromotionManagement = () => {
   );
 };
 
-export default PromotionManagement; 
+export default PromotionManagement;

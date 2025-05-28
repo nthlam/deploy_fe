@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ffd700; /* Màu vàng đậm */
+  --primary-color: #f96f3a; /* Màu cam chính */
   --secondary-color: #000000; /* Màu đen */
   --text-light: #ffffff;
   --text-dark: #000000;
@@ -54,7 +54,7 @@ code {
 }
 
 .sidebar-menu li:hover {
-  background-color: rgba(255, 215, 0, 0.1);
+  background-color: rgba(249, 111, 58, 0.1);
 }
 
 .sidebar-menu a {
@@ -80,8 +80,8 @@ code {
 }
 
 .btn-primary-tgdd:hover {
-  background-color: #e6c200;
-  border-color: #e6c200;
+  background-color: #e65a26;
+  border-color: #e65a26;
 }
 
 .card-header-tgdd {
@@ -113,11 +113,11 @@ code {
 }
 
 .admin-sidebar .nav-link:hover {
-  background-color: rgba(255, 215, 0, 0.1);
+  background-color: rgba(249, 111, 58, 0.1);
 }
 
 .admin-sidebar .nav-link.active {
-  background-color: rgba(255, 215, 0, 0.2);
+  background-color: rgba(249, 111, 58, 0.2);
   color: var(--primary-color) !important;
   font-weight: bold;
 }

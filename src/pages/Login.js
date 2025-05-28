@@ -61,7 +61,7 @@ const Login = () => {
             <div className="login-form text-center">
               <div className="login-logo mb-4">
                 <h1 style={{ color: '#000000', fontWeight: 'bold' }}>
-                  <span style={{ color: '#ffd700' }}>the</span>gioididong
+                  <span style={{ color: '#ffd700' }}>TechShop</span>
                   <span style={{ fontSize: '0.7em', color: '#ffd700' }}>.com</span>
                 </h1>
                 <p className="text-muted">Hệ thống quản lý</p>
