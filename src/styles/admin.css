@@ -21,8 +21,10 @@
     --bs-btn-disabled-bg: #0dcaf0;
     --bs-btn-disabled-border-color: #0dcaf0;
 }
-.bg-info{
-      background-color: #f96f3a;
+
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: #f96f3a !important;
 }
 .btn-primary {
     --bs-btn-color: #fff;
